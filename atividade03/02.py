@@ -18,7 +18,7 @@ Idoso (60 anos ou mais).
 idade = int(input("Insira a sua idade: "))
 
 if idade < 0:
-    print("VALOR INVÁLIDO, insira um valor positivo")
+    print("VALOR INVÁLIDO, insira um valor positivo.")
 elif idade >= 0 and idade <= 12: 
     print("Você é uma criança")
 elif idade >= 13 and idade <= 17:
